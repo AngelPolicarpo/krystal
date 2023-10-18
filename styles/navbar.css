@@ -1,0 +1,209 @@
+.glass {
+    background: rgb(25, 25, 25);
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 0px 1px 1px rgb(255, 255, 255);
+  }
+
+.confetti {
+    z-index: 0;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.1;
+}
+
+header {
+    font-family: "Signika", sans-serif;
+    font-family: "Varela Round", sans-serif;
+    padding: 12px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 0;
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+}
+
+header h1 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    z-index: 5;
+}
+
+header a {
+    padding: 0 12px;
+    color: rgb(225, 225, 225);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.25s;
+}
+
+header nav a:hover,
+header nav a:active {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+}
+
+header h1 span {
+    color: rgba(225, 225, 225, 1);
+    font-weight: bold;
+
+}
+
+svg {
+    filter: drop-shadow(0px 1px 1px rgb(0, 155, 255));
+    z-index: 5;
+}
+
+.container, nav {
+    z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    header {
+        display: flex;
+        padding: 0 0px;
+        flex-flow: column nowrap;
+    }
+
+    header .container {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .menu-nav {
+        display: none;
+    }
+
+    header nav a {
+        font-size: 24px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    header nav a:hover,
+    header nav a:active {
+        color: rgba(255, 255, 255, 0.9);
+        background-color: rgba(175, 175, 175, 0.75);
+    }
+
+    .menu-nav {
+        width: 100%;
+        background-color: rgba(200, 200, 200, 0);
+        backdrop-filter: blur(6px);
+    }
+
+    .show-nav {
+        display: flex;
+        flex-flow: column;
+    }
+
+    svg {
+        display: inline-block;
+        width: 45px;
+        height: 40px;
+    }
+
+    header h1 span {
+        display: none;
+    }
+
+    #menu-bar {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        width: 45px;
+        height: 40px;
+        margin: 30px 0 20px 20px;
+        cursor: pointer;
+    }
+
+    .bar {
+        height: 4px;
+        width: 100%;
+        background-color: #ffffffd8;
+        box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+        display: block;
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+
+    .change-bar #bar1 {
+        transform: translateY(12px) rotateZ(45deg);
+    }
+
+    .change-bar #bar2 {
+        opacity: 0;
+    }
+
+    .change-bar #bar3 {
+        background-color: white;
+        transform: translateY(-15px) rotateZ(-45deg);
+    }
+
+    /* Estilos do main (responsivo) */
+    main section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 12px;
+        color: black;
+    }
+
+    main h1 {
+        margin: 0;
+        padding-top: 12px;
+    }
+
+}
+
+main section p {
+    text-align: start;
+    text-indent: 12px;
+    line-height: 24px;
+    padding-top: 12px;
+    margin: 0;
+}

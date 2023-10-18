@@ -243,11 +243,11 @@ export default function Home() {
             <h2>Festa Infantil</h2>
             <Carousel
             images={[
-            <Image width={500} height={500} className='teste' src="https://static.wixstatic.com/media/59faf3_cab1dcd4ecaf4a6b85897d0df15d0631~mv2.jpg/v1/fill/w_960,h_540,al_c,q_85,enc_auto/59faf3_cab1dcd4ecaf4a6b85897d0df15d0631~mv2.jpg" />
+            <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_cab1dcd4ecaf4a6b85897d0df15d0631~mv2.jpg/v1/fill/w_960,h_540,al_c,q_85,enc_auto/59faf3_cab1dcd4ecaf4a6b85897d0df15d0631~mv2.jpg" />
             ,
-            <Image width={500} height={500} src="https://static.wixstatic.com/media/59faf3_3162c4c46b0b45f78401fe4fa04a7bec~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_3162c4c46b0b45f78401fe4fa04a7bec~mv2_d_3264_1836_s_2.jpg" />
+            <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_3162c4c46b0b45f78401fe4fa04a7bec~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_3162c4c46b0b45f78401fe4fa04a7bec~mv2_d_3264_1836_s_2.jpg" />
             ,
-            <Image width={500} height={500} src="https://static.wixstatic.com/media/59faf3_1be312031bbc4490af267ea13688d629~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_1be312031bbc4490af267ea13688d629~mv2_d_3264_1836_s_2.jpg" />
+            <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_1be312031bbc4490af267ea13688d629~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_1be312031bbc4490af267ea13688d629~mv2_d_3264_1836_s_2.jpg" />
             ,
             ]}
             />
@@ -256,9 +256,9 @@ export default function Home() {
             <h2>Casamentos</h2>
             <Carousel
             images={[
-            <Image width={500} height={500} src="https://static.wixstatic.com/media/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg" />
+            <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg" />
             ,
-            <Image width={500} height={500} src="https://static.wixstatic.com/media/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg" />
+            <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg" />
             ,
             ]}
             />
@@ -267,9 +267,9 @@ export default function Home() {
             <h2>15 Anos</h2>
             <Carousel
             images={[
-            <Image width={500} height={500} src="https://static.wixstatic.com/media/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg" />
+            <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg" />
             ,
-            <Image width={500} height={500} src="https://static.wixstatic.com/media/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg" />
+            <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg" />
             ,
             ]}
             />
@@ -278,12 +278,28 @@ export default function Home() {
             <h2>Temáticas</h2>
             <Carousel
             images={[
-            <Image width={500} height={500} src="https://static.wixstatic.com/media/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg" />
+            <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg" />
             ,
-            <Image width={500} height={500} src="https://static.wixstatic.com/media/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg" />
+            <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg" />
             ,
             ]}
             />
+         </div>
+      </article>
+   </section>
+   <section id='contact'>
+      <h1>Contato</h1>
+      <article>
+         <div id='map'>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.1311028456134!2d-43.313340788252845!3d-22.83463857921961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b5d6fc0fa0b%3A0x2ec82cc273f32bf3!2sKrystal%20Festas%20Vista%20Alegre!5e0!3m2!1spt-BR!2sbr!4v1697663554292!5m2!1spt-BR!2sbr" width="600" height="450" style={{border: '0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+         <div>
+            <form>
+               <input placeholder='Mensagem'></input>
+               <input placeholder='Mensagem'></input>
+               <textarea placeholder='Mensagem'></textarea>
+               <input placeholder='Mensagem'></input>
+            </form>
          </div>
       </article>
    </section>

@@ -1,206 +1,233 @@
- /* Estilos do conteúdo principal (main) */
- main {
-    flex-grow: 1;
-    color: #fff;
-    z-index: 0;
-  }
+/* Estilos do conteúdo principal (main) */
+main {
+  flex-grow: 1;
+}
 
-  main h1,
-  main section p {
-    text-align: center;
-    margin: 0;
-  }
+main h1,
+main section p {
+  text-align: center;
+  margin: 0;
+}
 
-  /* Estilos do rodapé (footer) */
-  footer {
-    flex-grow: 0;
-  }
+/* Estilos do rodapé (footer) */
+footer {
+  flex-grow: 0;
+}
 
-   /* Efeito de vidro */
+/* Efeito de vidro */
 
+/* Estilos do section (home) */
 
-  /* Estilos do section (home) */
+section {
+  min-height: 100vh;
+}
 
-  section {
-    min-height: 100vh;
-  }
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgba(25, 25, 25, 1);
+  padding: 12px;
+  background-color: rgb(225, 225, 225);
+}
 
+#home h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
 
-  #home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: rgba(25, 25, 25, 1);
-    padding: 12px;
-    background-color: rgb(225, 225, 225);
-  }
+#home button {
+  background: rgba(25, 25, 25, 1);
+  border: none;
+  box-shadow: 0px 0px 2px 1px rgb(25, 25, 25);
+  padding: 6px;
+  color: rgba(225, 225, 225, 1);
+  font-weight: bold;
+  max-width: 50%;
+  border-radius: 3px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  transition: 0.5s;
+  z-index: 5;
+}
 
+#home button:active,
+#home button:hover {
+  background: rgba(50, 50, 50, 1);
+} 
 
-  #home h1 {
-    font-size: 36px;
-    font-weight: bold;
-    z-index: 5;
-  }
+/* Estilos do section (themes) */
 
-  #home p {
-    z-index: 5;
-  }
+#services {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 12px; 
+  color: rgb(25, 25, 25);
+  background-color: rgb(25, 25, 25);
+}
 
-  .home-button {
-      background: rgba(25, 25, 255, 0.3);
-      border: none;
-      box-shadow: 0px 0px 2px 1px rgb(0, 0, 0);
-      padding: 6px;
-      color: rgba(255, 255, 255, 1);
-      font-weight: bold;
-      backdrop-filter: blur(3px);
-      max-width: 50%;
-      border-radius: 3px;
-      margin-top: 24px;
-      margin-bottom: 12px;
-      transition: 0.5s;
-      z-index: 5;
-    }
-
-  .home-button:active,
-  .home-button:hover {
-    background: rgba(0, 10, 255, 0.5);
-    color: rgba(255, 255, 255, 1);
-  } 
-
-  /* Estilos do section (themes) */
-
-  #services {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0 12px; 
-    color: rgb(25, 25, 25);
-    background-color: rgb(25, 25, 25);
-  }
-
-  #services h1 {
+#services h1 {
     font-size: 36px;
     font-weight: bold;
     color: rgb(225, 225, 225);
-  }
+    padding: 12px 0;
+    text-align: center;
+}
 
-  #services > div {
+#services > div {
     display: flex;
     justify-content: center;
     flex-flow: row nowrap;
     gap: 12px;
-  }
+}
 
-
-  #services h1 {
-    padding: 12px 0;
+#services table {
     text-align: center;
-  }
+}
 
-  #services table {
-    text-align: center;
-  }
-
-  #services thead th {
+#services thead th {
     background-color: rgb(220, 220, 220);
-  }
+}
 
-  #services table {
+#services table {
     table-layout: fixed;
     border-collapse: collapse;
     border-spacing: 0;
     background-color: rgba(180, 180, 180, 1);
-  }
+}
 
-  #services table td {
+#services table td {
     padding: 12px;
     border-top: 3px rgba(0, 0, 0, 0.5) solid;
-  }
+}
 
-  #services table th{
+#services table th {
     padding: 12px;
-  }
+}
 
-  #services small{
+#services small {
     color: rgb(225, 225, 225);
     text-align: center;
     padding: 12px 12px;
-  }
+}
 
-  /* Estilos do section (gallery) */
+/* Estilos do section (gallery) */
 
-  #gallery {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: rgb(25, 25, 25);
-    background-color: rgb(225, 225, 225);
-  }
+#gallery {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(25, 25, 25);
+  background-color: rgb(225, 225, 225);
+}
   
-  #gallery h1 {
-    font-size: 36px;
-    font-weight: bold;
-    padding: 12px 0;
-    color: rgb(25, 25, 25);
-  }
+#gallery h1 {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 12px 0;
+  color: rgb(25, 25, 25);
+}
 
-  #gallery article {
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 0 2rem;
-    max-width: 1024px;
-    gap: 2rem;
-  }
+#gallery article {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0 2rem;
+  max-width: 1024px;
+  gap: 2rem;
+}
   
-  #gallery .title-container {
-    max-width: 47%;
-    padding-bottom: 3rem;
-    background-color: rgb(25, 25, 25);
-    color: rgb(225, 225, 225);
-    box-sizing: border-box;
-  }
+#gallery .title-container {
+  max-width: 47%;
+  padding-bottom: 3rem;
+  background-color: rgb(25, 25, 25);
+  color: rgb(225, 225, 225);
+  box-sizing: border-box;
+}
 
-  #gallery div {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    position: relative;
-  }
-
-
-  #gallery h2 {
-    font-weight: bold;
-    text-align: center;
-    padding: 12px 0;
-  }
-
-  #gallery button {
-    width: 50px;
-    height: 50px;
-    position:absolute;
-    top:50%;
-    background-color: rgba(25, 25, 25, 0.5);
-    color: rgb(225, 225, 225);
-    transition: 0.75s;
-  }
-
-  #gallery button:hover {
-    background-color: rgba(25, 25, 25, 0.85);
-  }
-
-  #gallery #prevBtn {
-    left:0%;
-    transform:translate(0%,-50%);
-  }
-
-  #gallery #nextBtn {
-    right:0%;
-    transform:translate(0%,-50%);
-  }
+#gallery div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+}
 
 
+#gallery h2 {
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 0;
+}
 
+#gallery button {
+  width: 50px;
+  height: 50px;
+  position:absolute;
+  top:50%;
+  background-color: rgba(25, 25, 25, 0.5);
+  color: rgb(225, 225, 225);
+  transition: 0.75s;
+}
 
+#gallery button:hover {
+  background-color: rgba(25, 25, 25, 0.85);
+}
+
+#gallery #prevBtn {
+  left:0%;
+  transform:translate(0%,-50%);
+}
+
+#gallery #nextBtn {
+  right:0%;
+  transform:translate(0%,-50%);
+}
+
+/* Estilos do section (contact) */
+
+#contact h1 {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 12px 0;
+}
+
+#contact article {
+  display: flex;
+  width: 80%;
+  height: auto;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 12px;
+  box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
+}
+
+#contact #map {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+}
+
+#contact div {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+}
+
+#contact input {
+  height: 40px;
+}
+
+#contact textarea {
+  height: 130px;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  color: rgb(25, 25, 25);
+  border: 1px solid rgb(25, 25, 25);
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+}

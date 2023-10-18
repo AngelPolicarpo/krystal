@@ -50,7 +50,7 @@ const Navbar = () => {
       <a href="#home">Início</a>
       <a href="#services">Serviços</a>
       <a href="#gallery">Galeria</a>
-      <a href="#">Contato</a>
+      <a href="#contact">Contato</a>
    </nav>
 </header>
   );

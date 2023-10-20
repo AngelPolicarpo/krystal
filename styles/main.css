@@ -187,47 +187,77 @@ section {
 
 /* Estilos do section (contact) */
 
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(25, 25, 25);
+}
+
+
+
 #contact h1 {
   font-size: 36px;
   font-weight: bold;
+  color: rgb(225, 225, 225);
   padding: 12px 0;
 }
 
+#contact h2 {
+  color: rgb(25, 25, 25);
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+
 #contact article {
-  display: flex;
-  width: 80%;
-  height: auto;
-  margin: auto;
-  flex-wrap: wrap;
-  padding: 12px;
+  width: 60%;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
 }
 
-#contact #map {
+#map iframe {
   width: 100%;
-  height: auto;
-  flex: 50%;
+  height: 100%;
 }
 
 #contact div {
-  width: 100%;
-  height: auto;
-  flex: 50%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(225, 225, 225);
+  justify-content: center;
 }
 
 #contact input {
-  height: 40px;
+  height: 4rem;
 }
 
 #contact textarea {
-  height: 130px;
+  resize: none;
+  height: 16rem;
+}
+
+#contact form {
+  display: grid;
+  width: 100%;
+  margin: 36px;
+  row-gap: 1rem;
 }
 
 #contact input, #contact textarea {
-  width: 100%;
-  color: rgb(25, 25, 25);
-  border: 1px solid rgb(25, 25, 25);
+  padding: 16px;
+  background-color: rgb(150, 150, 150);
   outline: none;
-  margin-bottom: 20px;
-  padding: 15px;
+  border: 1px solid rgb(25, 25, 25);
+}
+
+#contact button {
+  background: rgba(150, 150, 150, 1);
+  border: none;
+  box-shadow: 0px 0px 2px 1px rgb(25, 25, 25);
+  height: 4rem;
+  color: rgba(225, 225, 225, 1);
+  font-weight: bold;
 }

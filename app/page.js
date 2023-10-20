@@ -291,14 +291,15 @@ export default function Home() {
       <h1>Contato</h1>
       <article>
          <div id='map'>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.1311028456134!2d-43.313340788252845!3d-22.83463857921961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b5d6fc0fa0b%3A0x2ec82cc273f32bf3!2sKrystal%20Festas%20Vista%20Alegre!5e0!3m2!1spt-BR!2sbr!4v1697663554292!5m2!1spt-BR!2sbr" width="600" height="450" style={{border: '0'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.1311028456134!2d-43.313340788252845!3d-22.83463857921961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b5d6fc0fa0b%3A0x2ec82cc273f32bf3!2sKrystal%20Festas%20Vista%20Alegre!5e0!3m2!1spt-BR!2sbr!4v1697663554292!5m2!1spt-BR!2sbr" style={{border: '0'}} allowFullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
          </div>
          <div>
             <form>
-               <input placeholder='Mensagem'></input>
-               <input placeholder='Mensagem'></input>
-               <textarea placeholder='Mensagem'></textarea>
-               <input placeholder='Mensagem'></input>
+               <h2>Entre em Contato</h2>
+               <input placeholder='SEU NOME'></input>
+               <input placeholder='SEU EMAIL'></input>
+               <textarea placeholder='ESCREVA UMA MENSAGEM AQUI'></textarea>
+               <button alt="Enviar mensagem">ENVIAR</button>
             </form>
          </div>
       </article>

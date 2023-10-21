@@ -24,12 +24,14 @@ export default function Home() {
          infantis e se encante com o capricho, a beleza a qualidade e os
          preços imbatíveis.
       </p>
-      <button className="home-button">AGENDAR UMA VISITA</button>
+      <button>AGENDAR UMA VISITA</button>
    </section>
    <section id="services">
-      <h1>Serviços</h1>
-      <div>
-         <table>
+      <h2>Serviços</h2>
+      <p>​Para saber sobre outros pacotes, valores e itens opcionais, favor entrar em contato através de nossos telefones ou por e-mail. Teremos um imenso prazer em lhe atender!</p>
+      <article> 
+         <div>
+            <table>
             <thead>
                <tr>
                   <th>Recursos</th>
@@ -79,8 +81,8 @@ export default function Home() {
                   <td>Álbum de Fotos e Filmagem</td>
                </tr>
             </tbody>
-         </table>
-         <table>
+            </table>
+            <table>
             <thead>
                <tr>
                   <th>Casamento e 15 Anos</th>
@@ -130,8 +132,8 @@ export default function Home() {
                   <td>Opcional</td>
                </tr>
             </tbody>
-         </table>
-         <table>
+            </table>
+            <table>
             <thead>
                <tr>
                   <th>Infantil</th>
@@ -181,8 +183,8 @@ export default function Home() {
                   <td>Não</td>
                </tr>
             </tbody>
-         </table>
-         <table>
+            </table>
+            <table>
             <thead>
                <tr>
                   <th>Outros Temas*</th>
@@ -232,12 +234,14 @@ export default function Home() {
                   <td>Não</td>
                </tr>
             </tbody>
-         </table>
-      </div>
-      <small>*Festa Teen, Temática ou Churrasco, Confraternização de Empresas e Formatura</small>
+            </table>
+         </div>
+         <small>*Festa Teen, Temática ou Churrasco, Confraternização de Empresas e Formatura</small>  
+      </article>
    </section>
    <section id="gallery">
-      <h1>Galeria de Fotos</h1>
+      <h2>Gallery</h2>
+      <p>Confira os nossos diversos serviços prestados ao longo dos anos.</p>
       <article>
          <div className='title-container'>
             <h2>Festa Infantil</h2>
@@ -288,18 +292,17 @@ export default function Home() {
       </article>
    </section>
    <section id='contact'>
-      <h1>Contato</h1>
       <article>
          <div id='map'>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.1311028456134!2d-43.313340788252845!3d-22.83463857921961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b5d6fc0fa0b%3A0x2ec82cc273f32bf3!2sKrystal%20Festas%20Vista%20Alegre!5e0!3m2!1spt-BR!2sbr!4v1697663554292!5m2!1spt-BR!2sbr" style={{border: '0'}} allowFullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.1311028456134!2d-43.313340788252845!3d-22.83463857921961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b5d6fc0fa0b%3A0x2ec82cc273f32bf3!2sKrystal%20Festas%20Vista%20Alegre!5e0!3m2!1spt-BR!2sbr!4v1697663554292!5m2!1spt-BR!2sbr" style={{border: '0'}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
          </div>
          <div>
+            <h2>Entre em Contato</h2>
             <form>
-               <h2>Entre em Contato</h2>
                <input placeholder='SEU NOME'></input>
                <input placeholder='SEU EMAIL'></input>
                <textarea placeholder='ESCREVA UMA MENSAGEM AQUI'></textarea>
-               <button alt="Enviar mensagem">ENVIAR</button>
+               <button>ENVIAR</button>
             </form>
          </div>
       </article>

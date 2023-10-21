@@ -244,7 +244,7 @@ export default function Home() {
       <p>Confira os nossos diversos serviços prestados ao longo dos anos.</p>
       <article>
          <div className='title-container'>
-            <h2>Festa Infantil</h2>
+            <h3>Festa Infantil</h3>
             <Carousel
             images={[
             <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_cab1dcd4ecaf4a6b85897d0df15d0631~mv2.jpg/v1/fill/w_960,h_540,al_c,q_85,enc_auto/59faf3_cab1dcd4ecaf4a6b85897d0df15d0631~mv2.jpg" />
@@ -257,7 +257,7 @@ export default function Home() {
             />
          </div>
          <div className='title-container'>
-            <h2>Casamentos</h2>
+            <h3>Casamentos</h3>
             <Carousel
             images={[
             <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg" />
@@ -268,7 +268,7 @@ export default function Home() {
             />
          </div>
          <div className='title-container'>
-            <h2>15 Anos</h2>
+            <h3>15 Anos</h3>
             <Carousel
             images={[
             <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg" />
@@ -279,7 +279,7 @@ export default function Home() {
             />
          </div>
          <div className='title-container'>
-            <h2>Temáticas</h2>
+            <h3>Temáticas</h3>
             <Carousel
             images={[
             <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg" />
@@ -297,7 +297,7 @@ export default function Home() {
          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.1311028456134!2d-43.313340788252845!3d-22.83463857921961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b5d6fc0fa0b%3A0x2ec82cc273f32bf3!2sKrystal%20Festas%20Vista%20Alegre!5e0!3m2!1spt-BR!2sbr!4v1697663554292!5m2!1spt-BR!2sbr" style={{border: '0'}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
          </div>
          <div>
-            <h2>Entre em Contato</h2>
+            <h2>ENTRE EM CONTATO</h2>
             <form>
                <input placeholder='SEU NOME'></input>
                <input placeholder='SEU EMAIL'></input>

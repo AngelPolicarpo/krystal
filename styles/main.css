@@ -29,7 +29,7 @@ section {
   justify-content: center;
   color: rgba(25, 25, 25, 1);
   padding: 12px;
-  background-color: rgb(225, 225, 225);
+  background-color: var(--fourth-color);
 }
 
 #home h1 {
@@ -65,8 +65,8 @@ section {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 36px;
-  color: rgb(25, 25, 25);
-  background-color: rgb(25, 25, 25);
+  color: var(--fifth-color);
+  background-color: var(--first-color);
 }
 
 #services h2 {
@@ -74,12 +74,10 @@ section {
   flex-grow: 0;
   font-size: 36px;
   font-weight: bold;
-  color: rgb(225, 225, 225);
 }
 
 #services p {
   padding-bottom: 24px;
-  color: rgb(225, 225, 225)
 }
 
 #services article {
@@ -100,15 +98,16 @@ section {
   text-align: center;
 }
 
-#services thead th {
-  background-color: rgb(220, 220, 220);
+#services article div thead tr {
+
 }
 
 #services table {
   table-layout: fixed;
   border-collapse: collapse;
   border-spacing: 0;
-  background-color: rgba(180, 180, 180, 1);
+  font-weight: bold;
+
 }
 
 #services table td {
@@ -124,7 +123,6 @@ section {
   display: flex;
   align-self: center;
   text-align: center;
-  color: rgb(225, 225, 225);
   padding: 12px 12px;
 }
 
@@ -156,7 +154,7 @@ section {
   justify-content: center;
   max-width: 1024px;
   gap: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   margin: auto;
 }
   
@@ -186,8 +184,8 @@ section {
 #gallery button {
   width: 50px;
   height: 50px;
-  position:absolute;
-  top:50%;
+  position: absolute;
+  top: 50%;
   background-color: rgba(25, 25, 25, 0.5);
   color: rgb(225, 225, 225);
   transition: 0.75s;
@@ -198,16 +196,16 @@ section {
 }
 
 #gallery #prevBtn {
-  left:0%;
-  transform:translate(0%,-50%);
+  left: 0%;
+  transform: translate(0%,-50%);
 }
 
 #gallery #nextBtn {
-  right:0%;
-  transform:translate(0%,-50%);
+  right: 0%;
+  transform: translate(0%,-50%);
 }
 
-/* Estilos do section (contact) */
+/* Estilos do section (contact) 
 
 #contact {
   display: flex;
@@ -286,3 +284,4 @@ section {
   color: rgba(225, 225, 225, 1);
   font-weight: bold;
 }
+*/

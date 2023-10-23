@@ -1,12 +1,139 @@
-footer {
+footer article {
     display: flex;
+    color: rgb(225, 225, 225);
+    padding: 36px;
+    justify-content: space-around;
+    background-color: #210D26;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    background-color: #ccc;
+}
+
+#social-p {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -12px;
+}
+
+.social svg {
+    background-color: rgb(225, 225, 225);
+    width: 30px;
+    height: 30px;
+}
+
+#icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social div {
+    padding: 24px;
+    text-align: center;
+}
+
+.social p {
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact h2 {
+    font-weight: bold;
+}
+
+.contact textarea, input {
+    text-indent: 6px;
+    resize: none;
+    outline: none;
+    border: none;
+    color: rgb(225, 225, 225);
+    background-color: rgb(225, 225, 225, 0.1);
+}
+
+.contact textarea::placeholder, input::placeholder {
+    color: rgb(225, 225, 225);
+}
+
+.contact button {
+    background-color: rgb(225, 225, 225, 0.1);
+    border: 1px solid rgb(225, 225, 225, 0.5);
+    color: rgb(225, 225, 225);
+    cursor: pointer;
+    font-weight: bold;
+    outline: transparent;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+}
+
+.contact button:not([disabled]):focus {
+    box-shadow: 0px 0px 6px 1px rgb(0, 155, 255);
+}
+  
+.contact button:not([disabled]):hover {
+    box-shadow: 0px 0px 6px 1px rgb(0, 155, 255);
+}
+
+.map {
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.map iframe {
+    padding-bottom: 12px;
+}
+
+.map address {
+    padding-bottom: 12px;
+    font-style: normal;
+}
+
+.map button {
+    background-color: rgb(225, 225, 225, 0.1);
+    border: 1px solid rgb(225, 225, 225, 0.5);
+    color: rgb(225, 225, 225);
+    cursor: pointer;
+    font-weight: bold;
+    outline: transparent;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 12px;
+    transition: box-shadow .2s ease-in-out;
+}
+
+.map button:not([disabled]):focus {
+    box-shadow: 0px 0px 6px 1px rgb(0, 155, 255);
+}
+  
+.map button:not([disabled]):hover {
+    box-shadow: 0px 0px 6px 1px rgb(0, 155, 255);
 }
 
 .copyright {
     display: flex;
     justify-content: space-between;
+    color: rgb(225, 225, 225);
     padding: 24px;
-    border: 1px solid #fff;
+    background-color: #210D26;
+    border-top: 1px solid rgba(225, 225, 225, 0.5);
 }

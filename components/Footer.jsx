@@ -29,7 +29,7 @@ const Footer = () => {
                     </p>
                 </div>
             </div>
-            <div className="contact">
+            <div className="contact" id="contact">
                 <form>
                     <h2>Entre em Contato</h2>
                     <input placeholder='Nome'></input>

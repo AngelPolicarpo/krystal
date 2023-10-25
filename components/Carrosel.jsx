@@ -17,7 +17,7 @@ export default function Carousel({ images }) {
   };
 
   return (
-    <div>
+    <div className='carouselButton'>
       <div className="mySlides" style={{ display: 'block' }}>
         {images[slideIndex]}
       </div>

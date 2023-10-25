@@ -5,7 +5,6 @@ main {
 
 main h1,
 main section p {
-  text-align: center;
   margin: 0;
 }
 
@@ -33,16 +32,21 @@ section {
 }
 
 #home h1 {
+  text-align: center;
   font-size: 36px;
   font-weight: bold;
 }
 
+#home p {
+  text-align: center;
+}
+
 #home button {
-  background: rgba(25, 25, 25, 1);
+  background: var(--first-color);
   border: none;
   box-shadow: 0px 0px 2px 1px rgb(25, 25, 25);
-  padding: 6px;
-  color: rgba(225, 225, 225, 1);
+  padding: 12px;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   max-width: 50%;
   border-radius: 3px;
@@ -54,134 +58,79 @@ section {
 
 #home button:active,
 #home button:hover {
-  background: rgba(50, 50, 50, 1);
+  box-shadow: 0px 0px 6px 1px rgba(0, 153, 255, 0.5);
 } 
-
-/* Estilos do section (themes) */
-
-#services {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 36px;
-  color: var(--fifth-color);
-  background-color: var(--first-color);
-}
-
-#services h2 {
-  padding-top: 24px;
-  flex-grow: 0;
-  font-size: 36px;
-  font-weight: bold;
-}
-
-#services p {
-  padding-bottom: 24px;
-}
-
-#services article {
-  flex-grow: 1;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-}
-
-#services article > div {
-  display: flex;
-  flex-flow: row nowrap;
-  gap: 12px;
-}
-
-#services table {
-  text-align: center;
-}
-
-#services article div thead tr {
-
-}
-
-#services table {
-  table-layout: fixed;
-  border-collapse: collapse;
-  border-spacing: 0;
-  font-weight: bold;
-
-}
-
-#services table td {
-  padding: 12px;
-  border-top: 3px rgba(0, 0, 0, 0.5) solid;
-}
-
-#services table th {
-  padding: 12px;
-}
-
-#services small {
-  display: flex;
-  align-self: center;
-  text-align: center;
-  padding: 12px 12px;
-}
 
 /* Estilos do section (gallery) */
 
-#gallery {
+#services {
   display: flex;
   align-items: center;
   flex-direction: column;
   color: rgb(25, 25, 25);
-  background-color: rgb(225, 225, 225);
+  background-color: rgba(0, 155, 255, 0.1);
 }
   
-#gallery h2 {
+#services h2 {
   font-size: 36px;
   font-weight: bold;
   padding-top: 24px;
   color: rgb(25, 25, 25);
 }
 
-#gallery p {
-  color: rgb(25, 25, 25);
-  padding-bottom: 24px;
+#services > p {
+  padding-bottom: 4rem;
 }
 
-#gallery article {
+#services article {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   max-width: 1024px;
-  gap: 2rem;
-  padding-bottom: 2rem;
-  margin: auto;
+  gap: 4rem;
+  padding-bottom: 4rem;
+  margin: 0 auto;
 }
   
-#gallery .title-container {
-  max-width: 47%;
-  padding-bottom: 3rem;
-  background-color: rgb(25, 25, 25);
-  color: rgb(225, 225, 225);
+#services .title-container {
+  max-width: 40%;
+  background-color: var(--first-color);
   box-sizing: border-box;
 }
 
-#gallery div {
+#services div {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   position: relative;
 }
 
-#gallery h3 {
-  font-size: 24px;
+#services h3 {
+  font-size: 18px;
   font-weight: bold;
   text-align: center;
   padding: 6px;
-  color: rgb(225, 225, 225);
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
 }
 
-#gallery button {
+.text-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0px 0px 6px 1px rgb(0, 0, 0, 0.4);
+}
+
+.text-container > div {
+  align-self: start;
+}
+
+.text-container p {
+  padding: 12px;
+  text-indent: 0px;
+}
+
+#services button {
   width: 50px;
   height: 50px;
   position: absolute;
@@ -191,97 +140,28 @@ section {
   transition: 0.75s;
 }
 
-#gallery button:hover {
+#services button:hover {
   background-color: rgba(25, 25, 25, 0.85);
 }
 
-#gallery #prevBtn {
+#services #prevBtn {
   left: 0%;
   transform: translate(0%,-50%);
 }
 
-#gallery #nextBtn {
+#services #nextBtn {
   right: 0%;
   transform: translate(0%,-50%);
 }
 
-/* Estilos do section (contact) 
+@media (max-width: 779px) {
 
-#contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(25, 25, 25);
-}
+  #services article {
+    align-items: center;
+    flex-direction: column;
+  }
 
-#contact h1 {
-  font-size: 36px;
-  font-weight: bold;
-  color: rgb(225, 225, 225);
-  padding: 12px 0;
+  #services .title-container {
+    max-width: 60%;
+  }
 }
-
-#contact h2 {
-  color: rgb(25, 25, 25);
-  text-align: center;
-  font-weight: bold;
-  margin-top: 36px;
-  padding: 0 36px;
-  font-size: 36px;
-}
-
-#contact article {
-  display: flex;
-  width: 50%;
-  height: 50%;
-  background-color: #fff;
-  justify-content: space-between;
-}
-
-#map iframe {
-  width: 100%;
-  height: 100%;
-}
-
-#contact div {
-  flex-grow: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-}
-
-#contact input {
-  height: 4rem;
-}
-
-#contact textarea {
-  resize: none;
-  height: 16rem;
-}
-
-#contact form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  gap: 1rem;
-  padding: 36px;
-}
-
-#contact input, #contact textarea {
-  padding: 16px;
-  background-color: rgb(150, 150, 150);
-  outline: none;
-  border: 1px solid rgb(25, 25, 25);
-}
-
-#contact button {
-  background: rgba(150, 150, 150, 1);
-  border: none;
-  box-shadow: 0px 0px 2px 1px rgb(25, 25, 25);
-  height: 4rem;
-  color: rgba(225, 225, 225, 1);
-  font-weight: bold;
-}
-*/

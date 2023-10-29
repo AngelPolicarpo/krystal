@@ -17,8 +17,8 @@ export default function Carousel({ images }) {
   };
 
   return (
-    <div className='carouselButton'>
-      <div className="mySlides" style={{ display: 'block' }}>
+    <div>
+      <div className="carouselImages" style={{ display: 'block' }}>
         {images[slideIndex]}
       </div>
       <button id='prevBtn' onClick={() => plusDivs(-1)}>&#10094;</button>

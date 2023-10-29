@@ -29,73 +29,73 @@ export default function Home() {
          </section>
          <section id="services">
             <h2>Serviços</h2>
-            <p>Todos os serviços listados abaixo contêm, salão climatizado, decoração do salão, som com DJ e pista de dança, sala de jogos. Além de bolo, cerveja, refrigerantes, água e sucos, diversos doces e salgados.</p>
+            <p>Todos os serviços listados abaixo oferecem um salão climatizado, decoração personalizada do salão, sistema de som com um experiente DJ e uma animada pista de dança, bem como uma sala de jogos para entretenimento. Além disso, incluem um delicioso bolo para adoçar a ocasião, uma variedade de bebidas que vão desde cerveja até refrigerantes, água e sucos, e ainda uma seleção diversificada de doces e salgados para satisfazer todos os gostos.</p>
             <article>
-               <div className='title-container'>
+               <div className='carousel'>
                   <Carousel
                   images={[
-                  <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_cab1dcd4ecaf4a6b85897d0df15d0631~mv2.jpg/v1/fill/w_960,h_540,al_c,q_85,enc_auto/59faf3_cab1dcd4ecaf4a6b85897d0df15d0631~mv2.jpg" />
+                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/festaInfantil01.png" />
                   ,
-                  <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_3162c4c46b0b45f78401fe4fa04a7bec~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_3162c4c46b0b45f78401fe4fa04a7bec~mv2_d_3264_1836_s_2.jpg" />
+                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/festaInfantil02.png" />
                   ,
-                  <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_1be312031bbc4490af267ea13688d629~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_1be312031bbc4490af267ea13688d629~mv2_d_3264_1836_s_2.jpg" />
+                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/festaInfantil03.png" />
                   ,
                   ]}
                   />
-                  <article className='text-container'>
+                  <div className='textBox'>
                      <div>
                         <h3>Festa Infantil</h3>
-                        <p>A festa infantil vem com animação e brinquedos, pode escolher o tema da festa. Tem 3 tipos de lanches e doces brigadeiros, beijinhos e cajuzinhos. Duração de 4 horas.</p>
+                        <p>Celebre a festa infantil conosco! Oferecemos animação, brinquedos e três tipos de lanches deliciosos, incluindo brigadeiros, beijinhos e cajuzinhos. Escolha o tema da festa e aproveite 4 horas de diversão.</p>
                      </div>
-                  </article>
+                  </div>
                </div>
-               <div className='title-container'>
+               <div className='carousel'>
                   <Carousel
                   images={[
-                  <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg" />
+                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/casamento01.png" />
                   ,
-                  <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg" />
+                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/casamento02.png" />
                   ,
                   ]}
                   />
-                  <article className='text-container'>
+                  <div className='textBox'>
                      <div>
                         <h3>Casamentos</h3>
-                        <p>O casamento tem duração de 5 horas, a mesa do bolo vem com 3 arranjos florais e possui mesa de frios, tem jantar com 2 massas e 1 caldo. Doces caramelados e fondados. Opção de álbum de fotos e filmagem.</p>
+                        <p>Torne seu casamento especial e memorável com nossa oferta de 5 horas. Inclui uma mesa de bolo decorada com três arranjos florais, mesa de frios e jantar com opções de massas e caldo. Desfrute de doces caramelados e fondados. Oferecemos álbum de fotos e serviços de filmagem.</p>
                      </div>
-                  </article>
+                  </div>
                </div>
-               <div className='title-container'>
+               <div className='carousel'>
                   <Carousel
                   images={[
-                  <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg" />
+                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/15anos01.png" />
                   ,
-                  <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg" />
+                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/15anos02.png" />
                   ,
                   ]}
                   />
-                  <article className='text-container'>
+                  <div className='textBox'>
                      <div>
                         <h3>15 Anos</h3>
                         <p>As opções do casamento também são válidas para a festa de 15 anos. </p>
                      </div>
-                  </article>                  
+                  </div>                  
                </div>
-               <div className='title-container'>
+               <div className='carousel'>
                   <Carousel
                   images={[
-                  <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_4e0ce7f6660a4858a88cd6a4c13d724a~mv2_d_3264_1836_s_2.jpg" />
+                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/tematica01.png" />
                   ,
-                  <Image width={500} height={500} alt="Imagem." src="https://static.wixstatic.com/media/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg/v1/fill/w_1417,h_797,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/59faf3_f4f24ef0a37b43f5908344ade62625d9~mv2_d_3264_1836_s_2.jpg" />
+                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/tematica02.png" />
                   ,
                   ]}
                   />
-                  <article className='text-container'>
+                  <div className='textBox'>
                      <div>
                         <h3>Temáticas</h3>
-                        <p>Possui duração de 4 ou 5 horas, tem opção de jantar, pode escolher entre guloseimas ou mesa de frios. Churrasco ou salgados, doces brigadeiros, beijinhos e cajuzinhos.</p>
+                        <p>As festas temáticas, com duração de 4 ou 5 horas, oferecem flexibilidade no menu. Escolha entre jantar com guloseimas ou mesa de frios, com opções como churrasco ou salgados. Complete com os adorados brigadeiros, beijinhos e cajuzinhos para uma doçura extra.</p>
                      </div>
-                  </article>                  
+                  </div>                  
                </div>
             </article>
          </section>

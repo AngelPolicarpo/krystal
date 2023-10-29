@@ -2,7 +2,7 @@ footer article {
     display: flex;
     color: var(--fifth-color);
     padding: 36px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: var(--first-color);
     flex-direction: row;
     gap: 2rem;
@@ -153,6 +153,24 @@ footer article {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 36px 0px;
+    }
+
+    .map {
+        order: 1;
+    }
+
+    .social {
+        order: 3;
+    }
+
+    .contact {
+        justify-content: center;
+        order: 2;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 2rem 0;
+        width: 80%;
     }
 
 }

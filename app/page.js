@@ -34,11 +34,17 @@ export default function Home() {
                <div className='carousel'>
                   <Carousel
                   images={[
-                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/festaInfantil01.png" />
+                  <Image width={500} height={500} alt="Imagem." src="/images/festaInfantil01.png" />
                   ,
-                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/festaInfantil02.png" />
+                  <Image width={500} height={500} alt="Imagem." src="/images/festaInfantil02.png" />
                   ,
-                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/festaInfantil03.png" />
+                  <Image width={500} height={500} alt="Imagem." src="/images/festaInfantil03.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/festaInfantil04.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/festaInfantil05.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/festaInfantil06.png" />
                   ,
                   ]}
                   />
@@ -52,9 +58,17 @@ export default function Home() {
                <div className='carousel'>
                   <Carousel
                   images={[
-                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/casamento01.png" />
+                  <Image width={500} height={500} alt="Imagem." src="/images/casamento01.png" />
                   ,
-                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/casamento02.png" />
+                  <Image width={500} height={500} alt="Imagem." src="/images/casamento02.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/casamento03.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/casamento04.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/casamento05.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/casamento06.png" />
                   ,
                   ]}
                   />
@@ -68,9 +82,17 @@ export default function Home() {
                <div className='carousel'>
                   <Carousel
                   images={[
-                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/15anos01.png" />
+                  <Image width={500} height={500} alt="Imagem." src="/images/15anos05.png" />
                   ,
-                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/15anos02.png" />
+                  <Image width={500} height={500} alt="Imagem." src="/images/15anos02.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/15anos03.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/15anos04.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/15anos01.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/15anos06.png" />
                   ,
                   ]}
                   />
@@ -84,9 +106,17 @@ export default function Home() {
                <div className='carousel'>
                   <Carousel
                   images={[
-                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/tematica01.png" />
+                  <Image width={500} height={500} alt="Imagem." src="/images/tematica04.png" />
                   ,
-                  <Image width={500} height={500} alt="Imagem." style={{ objectFit: "cover" }} src="/images/tematica02.png" />
+                  <Image width={500} height={500} alt="Imagem." src="/images/tematica02.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/tematica03.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/tematica01.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/tematica05.png" />
+                  ,
+                  <Image width={500} height={500} alt="Imagem." src="/images/tematica06.png" />
                   ,
                   ]}
                   />

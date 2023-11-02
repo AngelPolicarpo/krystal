@@ -61,7 +61,7 @@ footer article {
 }
 
 .contact textarea, input {
-    color: var(--first-color);
+    color: var(--fifth-color);
     text-indent: 6px;
     resize: none;
     outline: none;

@@ -2,6 +2,24 @@
 import "../styles/footer.css"
 
 const Footer = () => {
+    function mapButton() {
+        if ("geolocation" in navigator) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                var userLatitude = position.coords.latitude;
+                var userLongitude = position.coords.longitude;
+
+                // Substitua DESTINO_LATITUDE e DESTINO_LONGITUDE pelas coordenadas da loja
+                var destinoLatitude = -22.8346386;
+                var destinoLongitude = -43.3107605;
+
+                var googleMapsLink = "https://www.google.com/maps/dir/" + userLatitude + "," + userLongitude + "/" + destinoLatitude + "," + destinoLongitude;
+                
+                window.open(googleMapsLink, '_blank');
+            });
+        } else {
+            alert("Seu navegador não suporta geolocalização.");
+        }
+    };
     return (
         <footer>
             <article>
@@ -41,7 +59,7 @@ const Footer = () => {
                 <div className="map">
                     <address>Rua Prof. Oscar Clark, 254, Vista Alegre Rio de Janeiro, RJ</address>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.1311028456134!2d-43.313340788252845!3d-22.83463857921961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b5d6fc0fa0b%3A0x2ec82cc273f32bf3!2sKrystal%20Festas%20Vista%20Alegre!5e0!3m2!1spt-BR!2sbr!4v1697663554292!5m2!1spt-BR!2sbr" style={{border: '0'}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                    <button>Como Chegar</button>
+                    <button onClick={mapButton}>Como Chegar</button>
                 </div>
             </article>
             <div className="copyright">

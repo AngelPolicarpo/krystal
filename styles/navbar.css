@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 .glass {
-    background: var(--first-color);
+    background: rgba(0, 0, 0, 0.9);
     backdrop-filter: blur(6px);
     box-shadow: 0px 0px 6px 1px var(--third-color);
   }
@@ -23,7 +23,7 @@ header {
     flex-grow: 0;
     position: relative;
     overflow: hidden;
-    color: var(--third-color);
+    color: var(--first-color);
     z-index: 5;
 }
 

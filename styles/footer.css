@@ -1,12 +1,14 @@
 footer article {
     display: flex;
-    color: var(--fifth-color);
+    color: var(--first-color);
     padding: 36px;
     justify-content: space-evenly;
-    background-color: var(--first-color);
+    background-color: rgba(0, 0, 0, 0.9);
     flex-direction: row;
     gap: 2rem;
-    box-shadow: 0px 0px 6px 1px var(--third-color);
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    position: relative;
 }
 
 .social {
@@ -61,16 +63,16 @@ footer article {
 }
 
 .contact textarea, input {
-    color: var(--fifth-color);
+    color: var(--first-color);
     text-indent: 6px;
     resize: none;
     outline: none;
     border: none;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .contact textarea::placeholder, input::placeholder {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .contact button {
@@ -86,6 +88,7 @@ footer article {
     text-align: center;
     text-decoration: none;
     transition: box-shadow .2s ease-in-out;
+    color: black;
 }
 
 .contact button:not([disabled]):focus {
@@ -128,6 +131,7 @@ footer article {
     text-decoration: none;
     padding: 3px 12px;
     transition: box-shadow .2s ease-in-out;
+    color: black;
 }
 
 .map button:not([disabled]):focus {
@@ -141,10 +145,10 @@ footer article {
 .copyright {
     display: flex;
     justify-content: space-between;
-    color: var(--fifth-color);
+    color: var(--first-color);
     padding: 24px;
-    background-color: var(--first-color);
-    border-top: 1px solid var(--fourth-color);
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @media (max-width: 779px) {
@@ -167,8 +171,8 @@ footer article {
     .contact {
         justify-content: center;
         order: 2;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         padding: 2rem 0;
         width: 80%;
     }

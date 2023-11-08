@@ -6,7 +6,6 @@ footer article {
     background-color: rgba(0, 0, 0, 0.9);
     flex-direction: row;
     gap: 2rem;
-    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.6);
     z-index: 1;
     position: relative;
 }
@@ -24,10 +23,14 @@ footer article {
     margin-bottom: -12px;
 }
 
-.social svg {
-    background-color: rgb(225, 225, 225);
-    width: 30px;
-    height: 30px;
+.social #icons > svg {
+    width: 44px;
+    height: 44px;
+}
+
+footer #icons > svg:hover {
+    cursor: pointer;
+    filter: drop-shadow(0px 1px 6px rgba(0, 155, 255, 0.5));
 }
 
 #icons {
@@ -76,23 +79,21 @@ footer article {
 }
 
 .contact button {
-    background: var(--first-color);
     border: none;
-    box-shadow: 0px 0px 2px 1px rgb(25, 25, 25);
-    border-radius: 3px;
+    border: 1px solid rgb(255, 255, 255);
     width: 159px;
-    height: 30px;
+    height: 44px;
     cursor: pointer;
     font-weight: bold;
     outline: transparent;
     text-align: center;
     text-decoration: none;
     transition: box-shadow .2s ease-in-out;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .contact button:not([disabled]):focus {
-    box-shadow: 0px 0px 6px 1px rgb(0, 155, 255);
+    box-shadow: 0px 0px 6px 1px rgb(0, 155, 255, 0.5);
 }
   
 .contact button:not([disabled]):hover {
@@ -113,33 +114,31 @@ footer article {
 }
 
 .map address {
+    padding: 0 38px;
     padding-bottom: 12px;
     font-style: normal;
 }
 
 .map button {
-    background: var(--first-color);
     border: none;
-    box-shadow: 0px 0px 2px 1px rgb(25, 25, 25);
-    border-radius: 3px;
+    border: 1px solid rgb(255, 255, 255);
     width: 159px;
-    height: 30px;
+    height: 44px;
     cursor: pointer;
     font-weight: bold;
     outline: transparent;
     text-align: center;
     text-decoration: none;
-    padding: 3px 12px;
     transition: box-shadow .2s ease-in-out;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .map button:not([disabled]):focus {
-    box-shadow: 0px 0px 6px 1px rgb(0, 155, 255);
+    box-shadow: 0px 0px 6px 1px rgba(0, 155, 255, 0.5);
 }
   
 .map button:not([disabled]):hover {
-    box-shadow: 0px 0px 6px 1px rgba(0, 153, 255, 0.5);
+    box-shadow: 0px 0px 6px 1px rgba(0, 155, 255, 0.5);
 }
 
 .copyright {
@@ -148,7 +147,7 @@ footer article {
     color: var(--first-color);
     padding: 24px;
     background-color: rgba(0, 0, 0, 0.9);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 779px) {
@@ -171,10 +170,15 @@ footer article {
     .contact {
         justify-content: center;
         order: 2;
-        border-top: 1px solid rgba(255, 255, 255, 0.1);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
         padding: 2rem 0;
-        width: 80%;
+        width: 100%;
+    }
+
+    .copyright p {
+        text-align: center;
+        padding: 12px;
     }
 
 }

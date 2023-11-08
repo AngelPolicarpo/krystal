@@ -1,73 +1,152 @@
-'use client';
-import "../styles/footer.css"
+"use client";
+import "../styles/footer.css";
 
 const Footer = () => {
-    function mapButton() {
-        if ("geolocation" in navigator) {
-            navigator.geolocation.getCurrentPosition(function(position) {
-                var userLatitude = position.coords.latitude;
-                var userLongitude = position.coords.longitude;
+  function mapButton() {
+    if ("geolocation" in navigator) {
+      navigator.geolocation.getCurrentPosition(function (position) {
+        var userLatitude = position.coords.latitude;
+        var userLongitude = position.coords.longitude;
 
-                // Substitua DESTINO_LATITUDE e DESTINO_LONGITUDE pelas coordenadas da loja
-                var destinoLatitude = -22.8346386;
-                var destinoLongitude = -43.3107605;
+        // Substitua DESTINO_LATITUDE e DESTINO_LONGITUDE pelas coordenadas da loja
+        var destinoLatitude = -22.8346386;
+        var destinoLongitude = -43.3107605;
 
-                var googleMapsLink = "https://www.google.com/maps/dir/" + userLatitude + "," + userLongitude + "/" + destinoLatitude + "," + destinoLongitude;
-                
-                window.open(googleMapsLink, '_blank');
-            });
-        } else {
-            alert("Seu navegador não suporta geolocalização.");
-        }
-    };
-    return (
-        <footer>
-            <article>
-                <div className="social">
-                    <p id="social-p">Veja também Krystal Festas nas redes sociais</p>
-                    <div id="icons">
-                        <svg fill="#000000" height="800" width="800" xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 512 512" xmlSpace="preserve">
-                        <path d="M-143 145v512h512V145h-512zm312.5 212.6-2.9 38.3h-39.3v133H77.7v-133H51.2v-38.3h26.5v-25.7c0-11.3.3-28.8 8.5-39.7 8.7-11.5 20.6-19.3 41.1-19.3 33.4 0 47.4 4.8 47.4 4.8l-6.6 39.2s-11-3.2-21.3-3.2-19.5 3.7-19.5 14v29.9h42.2z"/>
-                        </svg>
-                        <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xmlSpace="preserve"><g><path d="M183,401c0,38.6-31.4,70-70,70c-38.6,0-70-31.4-70-70c0-9.3,1.9-18.2,5.2-26.3H10v104.8C10,493,21,504,34.5,504h157
-                        c13.5,0,24.5-11,24.5-24.5V374.7h-38.2C181.2,382.8,183,391.7,183,401z"/>
-                        <polygon points="211.4,345.9 211.4,308.1 211.4,302.5 205.8,302.5 168,302.6 168.2,346"/>
-                        <path d="M113,446c24.8,0,45.1-20.2,45.1-45.1c0-9.8-3.2-18.9-8.5-26.3c-8.2-11.3-21.5-18.8-36.5-18.8s-28.3,7.4-36.5,18.8
-                        c-5.3,7.4-8.5,16.5-8.5,26.3C68,425.8,88.2,446,113,446z"/>
-                        <path d="M-143,145v512h512V145H-143z M241,374.7v104.8c0,27.3-22.2,49.5-49.5,49.5h-157C7.2,529-15,506.8-15,479.5V374.7v-52.3
-                        c0-27.3,22.2-49.5,49.5-49.5h157c27.3,0,49.5,22.2,49.5,49.5V374.7z"/>
-                        </g>
-                        </svg>
-                    </div>
-                    <div>
-                        <p id="tel-p">Contato</p>
-                        <p>
-                            <a href="tel:+552121489162">021 2148 9162</a><br />
-                            <a href="tel:+5521970056370">021 970 056 370</a>
-                        </p>
-                    </div>
-                </div>
-                <div className="contact" id="contact">
-                    <form>
-                        <h2>Entre em Contato</h2>
-                        <input placeholder='Nome'></input>
-                        <input placeholder='E-mail'></input>
-                        <textarea placeholder='Mensagem'></textarea>
-                        <button>Enviar</button>
-                    </form>
-                </div>
-                <div className="map">
-                    <address>Rua Prof. Oscar Clark, 254, Vista Alegre Rio de Janeiro, RJ</address>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.1311028456134!2d-43.313340788252845!3d-22.83463857921961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b5d6fc0fa0b%3A0x2ec82cc273f32bf3!2sKrystal%20Festas%20Vista%20Alegre!5e0!3m2!1spt-BR!2sbr!4v1697663554292!5m2!1spt-BR!2sbr" style={{border: '0'}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-                    <button onClick={mapButton}>Como Chegar</button>
-                </div>
-            </article>
-            <div className="copyright">
-                <p>Copyright © 2023 Krystal Festas. Todos os direitos reservados.</p>
-                <p>Por Angel Policarpo.</p>
-            </div>
-        </footer>
-    )
-}
+        var googleMapsLink =
+          "https://www.google.com/maps/dir/" +
+          userLatitude +
+          "," +
+          userLongitude +
+          "/" +
+          destinoLatitude +
+          "," +
+          destinoLongitude;
+
+        window.open(googleMapsLink, "_blank");
+      });
+    } else {
+      alert("Seu navegador não suporta geolocalização.");
+    }
+  }
+  return (
+    <footer>
+      <article>
+        <div className="social">
+          <p id="social-p">Veja também Krystal Festas nas redes sociais</p>
+          <div id="icons">
+            <svg
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="512.000000pt"
+              height="512.000000pt"
+              viewBox="0 0 512.000000 512.000000"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <g
+                transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+                fill="#fff"
+                stroke="none"
+                className="drop-shadow-svg"
+              >
+                <path
+                  d="M1218 5109 c-167 -20 -364 -85 -514 -170 -388 -223 -644 -611 -693
+                    -1052 -15 -133 -15 -2521 0 -2654 71 -643 579 -1151 1222 -1222 133 -15 2521
+                    -15 2654 0 643 71 1151 579 1222 1222 15 133 15 2521 0 2654 -71 643 -579
+                    1151 -1222 1222 -118 13 -2554 13 -2669 0z m2773 -321 c208 -57 368 -148 508
+                    -289 141 -140 232 -300 290 -508 l26 -96 0 -1335 0 -1335 -26 -96 c-58 -208
+                    -149 -368 -290 -508 -140 -141 -300 -232 -508 -290 l-96 -26 -1335 0 -1335 0
+                    -96 26 c-208 58 -368 149 -508 290 -141 140 -232 300 -290 508 l-26 96 0 1335
+                    0 1335 26 96 c58 208 149 368 289 508 166 166 385 276 615 310 33 5 645 8
+                    1360 7 l1300 -1 96 -27z"
+                />
+                <path
+                  d="M3945 4453 c-244 -34 -410 -271 -351 -501 41 -163 145 -266 307 -308
+                    275 -70 545 179 499 460 -25 157 -140 289 -290 334 -44 13 -125 20 -165 15z
+                    m112 -319 c54 -34 63 -117 18 -164 -37 -38 -82 -47 -128 -25 -70 33 -85 125
+                    -29 177 41 39 89 43 139 12z"
+                />
+                <path
+                  d="M2367 3945 c-553 -76 -1020 -492 -1161 -1037 -124 -477 15 -981 368
+                    -1334 550 -550 1422 -550 1972 0 550 550 550 1422 0 1972 -316 315 -739 459
+                    -1179 399z m353 -300 c240 -36 444 -139 615 -310 431 -430 431 -1120 0 -1550
+                    -430 -431 -1120 -431 -1550 0 -431 430 -431 1120 0 1550 249 249 591 363 935
+                    310z"
+                />
+              </g>
+            </svg>
+            <svg
+              version="1.0"
+              xmlns="http://www.w3.org/2000/svg"
+              width="512.000000pt"
+              height="513.000000pt"
+              viewBox="0 0 512.000000 513.000000"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <g
+                transform="translate(0.000000,513.000000) scale(0.100000,-0.100000)"
+                fill="#fff"
+                stroke="none"
+              >
+                <path
+                    d="M2905 5123 c-68 -9 -226 -53 -301 -82 -385 -154 -636 -462 -736 -904
+                    -17 -79 -21 -139 -27 -412 l-6 -320 -280 -5 c-236 -4 -285 -8 -311 -22 -46
+                    -25 -111 -101 -123 -144 -7 -25 -11 -199 -11 -485 l0 -445 26 -52 c14 -29 42
+                    -66 62 -82 65 -53 108 -60 389 -60 l253 0 0 -955 c0 -1054 -4 -994 63 -1063
+                    18 -19 50 -43 72 -55 39 -22 47 -22 520 -22 475 0 480 0 521 22 48 25 101 83
+                    120 129 12 28 14 201 14 988 l0 955 328 3 c312 3 329 4 367 24 51 28 91 68
+                    119 119 20 39 21 52 24 470 2 293 0 446 -8 482 -14 66 -57 124 -117 160 l-48
+                    28 -330 5 -330 5 0 190 c1 105 4 207 8 228 14 70 22 71 362 77 257 5 306 8
+                    340 23 50 22 100 70 128 122 22 39 22 48 22 475 0 430 0 436 -22 476 -28 52
+                    -71 96 -116 118 -31 14 -86 16 -489 15 -249 -1 -466 -4 -483 -6z m813 -600
+                    l-3 -318 -270 -6 c-213 -4 -281 -9 -322 -22 -110 -36 -204 -127 -237 -231 -27
+                    -82 -38 -240 -34 -489 3 -246 7 -266 56 -310 47 -43 81 -46 440 -47 l342 0 0
+                    -345 0 -345 -356 0 c-341 0 -358 -1 -393 -21 -20 -11 -48 -36 -61 -56 l-25
+                    -37 -3 -993 -2 -993 -355 0 -355 0 -2 993 -3 993 -25 37 c-13 20 -41 45 -61
+                    56 -35 20 -53 21 -338 21 l-301 0 0 345 0 345 288 0 c300 1 338 6 384 47 52
+                    47 52 50 59 478 6 389 7 403 32 495 42 156 90 256 174 368 125 165 323 282
+                    549 326 115 22 118 23 487 24 l337 2 -2 -317z"
+                />
+              </g>
+            </svg>
+          </div>
+          <div>
+            <p id="tel-p">Contato</p>
+            <p>
+              <a href="tel:+552121489162">021 2148 9162</a>
+              <br />
+              <a href="tel:+5521970056370">021 970 056 370</a>
+            </p>
+          </div>
+        </div>
+        <div className="contact" id="contact">
+          <form>
+            <h2>Entre em Contato</h2>
+            <input placeholder="Nome"></input>
+            <input placeholder="E-mail"></input>
+            <textarea placeholder="Mensagem"></textarea>
+            <button>Enviar</button>
+          </form>
+        </div>
+        <div className="map">
+          <address>
+            Rua Prof. Oscar Clark, 254, Vista Alegre Rio de Janeiro, RJ
+          </address>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.1311028456134!2d-43.313340788252845!3d-22.83463857921961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b5d6fc0fa0b%3A0x2ec82cc273f32bf3!2sKrystal%20Festas%20Vista%20Alegre!5e0!3m2!1spt-BR!2sbr!4v1697663554292!5m2!1spt-BR!2sbr"
+            style={{ border: "0", filter: "invert(90%)" }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <button onClick={mapButton}>Como Chegar</button>
+        </div>
+      </article>
+      <div className="copyright">
+        <p>&copy; 2023 Krystal Festas. Todos os direitos reservados.</p>
+        <p>Por Angel Policarpo.</p>
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;

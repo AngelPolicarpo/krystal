@@ -24,8 +24,8 @@ footer article {
 }
 
 .social #icons > svg {
-    width: 44px;
-    height: 44px;
+    width: 45px;
+    height: 40px;
 }
 
 footer #icons > svg:hover {
@@ -71,6 +71,7 @@ footer #icons > svg:hover {
     resize: none;
     outline: none;
     border: none;
+    width: 160px;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -81,8 +82,8 @@ footer #icons > svg:hover {
 .contact button {
     border: none;
     border: 1px solid rgb(255, 255, 255);
-    width: 159px;
-    height: 44px;
+    width: 160px;
+    height: 40px;
     cursor: pointer;
     font-weight: bold;
     outline: transparent;
@@ -122,8 +123,8 @@ footer #icons > svg:hover {
 .map button {
     border: none;
     border: 1px solid rgb(255, 255, 255);
-    width: 159px;
-    height: 44px;
+    width: 160px;
+    height: 40px;
     cursor: pointer;
     font-weight: bold;
     outline: transparent;

@@ -7,11 +7,8 @@ const Footer = () => {
       navigator.geolocation.getCurrentPosition(function (position) {
         var userLatitude = position.coords.latitude;
         var userLongitude = position.coords.longitude;
-
-        // Substitua DESTINO_LATITUDE e DESTINO_LONGITUDE pelas coordenadas da loja
         var destinoLatitude = -22.8346386;
         var destinoLongitude = -43.3107605;
-
         var googleMapsLink =
           "https://www.google.com/maps/dir/" +
           userLatitude +
@@ -21,7 +18,6 @@ const Footer = () => {
           destinoLatitude +
           "," +
           destinoLongitude;
-
         window.open(googleMapsLink, "_blank");
       });
     } else {

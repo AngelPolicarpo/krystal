@@ -62,7 +62,7 @@ export default function Home() {
                            ,
                            <Image key="image8" width={500} height={500} alt="Imagem." src="/images/casamento02.png" />
                            ,
-                           <Image key="image9"width={500} height={500} alt="Imagem." src="/images/casamento03.png" />
+                           <Image key="image9" width={500} height={500} alt="Imagem." src="/images/casamento03.png" />
                            ,
                            <Image key="image10" width={500} height={500} alt="Imagem." src="/images/casamento04.png" />
                            ,
@@ -114,7 +114,7 @@ export default function Home() {
                            ,
                            <Image key="image22" width={500} height={500} alt="Imagem." src="/images/tematica01.png" />
                            ,
-                           <Image key="image23"width={500} height={500} alt="Imagem." src="/images/tematica05.png" />
+                           <Image key="image23" width={500} height={500} alt="Imagem." src="/images/tematica05.png" />
                            ,
                            <Image key="image24" width={500} height={500} alt="Imagem." src="/images/tematica06.png" />
                            ,

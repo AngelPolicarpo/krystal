@@ -3,27 +3,7 @@ import { useEffect } from 'react';
 import "../styles/navbar.css"
 
 const Navbar = () => {  
-  function createConfetti() {
-    const confetti = document.createElement('div');
-    confetti.className = 'confetti';
-    const maxX = document.querySelector('header').offsetWidth;
-    const maxY = 56; // Altura do header
-    const x = Math.random() * maxX - 36;
-    const y = Math.random() * maxY - 12;
-    const red = Math.floor(Math.random() * 256); 
-    const green = Math.floor(Math.random() * 256);
-    const blue = Math.floor(Math.random() * 256); 
-    confetti.style.left = `${x}px`;
-    confetti.style.top = `${y}px`;
-    confetti.style.backgroundColor = `rgb(${red},${green},${blue})`
-    document.querySelector('header').appendChild(confetti);
-}
 
-  useEffect(() => {
-      for (let i = 0; i < 50; i++) {
-          createConfetti();
-      }
-  }, [])
 
 
   function menuOnClick() {

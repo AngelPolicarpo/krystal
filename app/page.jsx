@@ -34,17 +34,17 @@ export default function Home() {
                   <div className='carousel'>
                      <Carousel
                         images={[
-                           <Image width={500} height={500} alt="Imagem." src="/images/festaInfantil01.png" />
+                           <Image key="image1" width={500} height={500} alt="Imagem." src="/images/festaInfantil01.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/festaInfantil02.png" />
+                           <Image key="image2" width={500} height={500} alt="Imagem." src="/images/festaInfantil02.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/festaInfantil03.png" />
+                           <Image key="image3" width={500} height={500} alt="Imagem." src="/images/festaInfantil03.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/festaInfantil04.png" />
+                           <Image key="image4" width={500} height={500} alt="Imagem." src="/images/festaInfantil04.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/festaInfantil05.png" />
+                           <Image key="image5" width={500} height={500} alt="Imagem." src="/images/festaInfantil05.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/festaInfantil06.png" />
+                           <Image key="image6" width={500} height={500} alt="Imagem." src="/images/festaInfantil06.png" />
                            ,
                         ]}
                      />
@@ -58,17 +58,17 @@ export default function Home() {
                   <div className='carousel'>
                      <Carousel
                         images={[
-                           <Image width={500} height={500} alt="Imagem." src="/images/casamento01.png" />
+                           <Image key="image7" width={500} height={500} alt="Imagem." src="/images/casamento01.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/casamento02.png" />
+                           <Image key="image8" width={500} height={500} alt="Imagem." src="/images/casamento02.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/casamento03.png" />
+                           <Image key="image9"width={500} height={500} alt="Imagem." src="/images/casamento03.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/casamento04.png" />
+                           <Image key="image10" width={500} height={500} alt="Imagem." src="/images/casamento04.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/casamento05.png" />
+                           <Image key="image11" width={500} height={500} alt="Imagem." src="/images/casamento05.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/casamento06.png" />
+                           <Image key="image12" width={500} height={500} alt="Imagem." src="/images/casamento06.png" />
                            ,
                         ]}
                      />
@@ -82,17 +82,17 @@ export default function Home() {
                   <div className='carousel'>
                      <Carousel
                         images={[
-                           <Image width={500} height={500} alt="Imagem." src="/images/15anos05.png" />
+                           <Image key="image13" width={500} height={500} alt="Imagem." src="/images/15anos05.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/15anos02.png" />
+                           <Image key="image14" width={500} height={500} alt="Imagem." src="/images/15anos02.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/15anos03.png" />
+                           <Image key="image15" width={500} height={500} alt="Imagem." src="/images/15anos03.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/15anos04.png" />
+                           <Image key="image16" width={500} height={500} alt="Imagem." src="/images/15anos04.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/15anos01.png" />
+                           <Image key="image17" width={500} height={500} alt="Imagem." src="/images/15anos01.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/15anos06.png" />
+                           <Image key="image18" width={500} height={500} alt="Imagem." src="/images/15anos06.png" />
                            ,
                         ]}
                      />
@@ -106,17 +106,17 @@ export default function Home() {
                   <div className='carousel'>
                      <Carousel
                         images={[
-                           <Image width={500} height={500} alt="Imagem." src="/images/tematica04.png" />
+                           <Image key="image19" width={500} height={500} alt="Imagem." src="/images/tematica04.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/tematica02.png" />
+                           <Image key="image20" width={500} height={500} alt="Imagem." src="/images/tematica02.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/tematica03.png" />
+                           <Image key="image21" width={500} height={500} alt="Imagem." src="/images/tematica03.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/tematica01.png" />
+                           <Image key="image22" width={500} height={500} alt="Imagem." src="/images/tematica01.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/tematica05.png" />
+                           <Image key="image23"width={500} height={500} alt="Imagem." src="/images/tematica05.png" />
                            ,
-                           <Image width={500} height={500} alt="Imagem." src="/images/tematica06.png" />
+                           <Image key="image24" width={500} height={500} alt="Imagem." src="/images/tematica06.png" />
                            ,
                         ]}
                      />

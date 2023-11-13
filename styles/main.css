@@ -29,7 +29,7 @@ section {
 }
 
 section#home {
-  background-image: url('../images/background2.jpg'); /* Créditos Pixabay */
+  background-image: url('../public/images/background01.jpg'); /* Créditos Pixabay */
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.9);
 }

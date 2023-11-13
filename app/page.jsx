@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-import Carousel from '@/components/Carrosel';
+
 import Image from 'next/image'
 import "../styles/main.css"
 
@@ -32,22 +32,7 @@ export default function Home() {
                <p>Todos os serviços listados abaixo oferecem um salão climatizado, decoração personalizada do salão, sistema de som com um experiente DJ e uma animada pista de dança, bem como uma sala de jogos para entretenimento. Além disso, incluem um delicioso bolo para adoçar a ocasião, uma variedade de bebidas que vão desde cerveja até refrigerantes, água e sucos, e ainda uma seleção diversificada de doces e salgados para satisfazer todos os gostos.</p>
                <article>
                   <div className='carousel'>
-                     <Carousel
-                        images={[
-                           <Image key="image1" width={500} height={500} alt="Imagem." src="/images/festaInfantil01.png" />
-                           ,
-                           <Image key="image2" width={500} height={500} alt="Imagem." src="/images/festaInfantil02.png" />
-                           ,
-                           <Image key="image3" width={500} height={500} alt="Imagem." src="/images/festaInfantil03.png" />
-                           ,
-                           <Image key="image4" width={500} height={500} alt="Imagem." src="/images/festaInfantil04.png" />
-                           ,
-                           <Image key="image5" width={500} height={500} alt="Imagem." src="/images/festaInfantil05.png" />
-                           ,
-                           <Image key="image6" width={500} height={500} alt="Imagem." src="/images/festaInfantil06.png" />
-                           ,
-                        ]}
-                     />
+
                      <div className='textBox'>
                         <div>
                            <h3>Festa Infantil</h3>
@@ -56,22 +41,7 @@ export default function Home() {
                      </div>
                   </div>
                   <div className='carousel'>
-                     <Carousel
-                        images={[
-                           <Image key="image7" width={500} height={500} alt="Imagem." src="/images/casamento01.png" />
-                           ,
-                           <Image key="image8" width={500} height={500} alt="Imagem." src="/images/casamento02.png" />
-                           ,
-                           <Image key="image9" width={500} height={500} alt="Imagem." src="/images/casamento03.png" />
-                           ,
-                           <Image key="image10" width={500} height={500} alt="Imagem." src="/images/casamento04.png" />
-                           ,
-                           <Image key="image11" width={500} height={500} alt="Imagem." src="/images/casamento05.png" />
-                           ,
-                           <Image key="image12" width={500} height={500} alt="Imagem." src="/images/casamento06.png" />
-                           ,
-                        ]}
-                     />
+
                      <div className='textBox'>
                         <div>
                            <h3>Casamentos</h3>
@@ -80,22 +50,7 @@ export default function Home() {
                      </div>
                   </div>
                   <div className='carousel'>
-                     <Carousel
-                        images={[
-                           <Image key="image13" width={500} height={500} alt="Imagem." src="/images/15anos05.png" />
-                           ,
-                           <Image key="image14" width={500} height={500} alt="Imagem." src="/images/15anos02.png" />
-                           ,
-                           <Image key="image15" width={500} height={500} alt="Imagem." src="/images/15anos03.png" />
-                           ,
-                           <Image key="image16" width={500} height={500} alt="Imagem." src="/images/15anos04.png" />
-                           ,
-                           <Image key="image17" width={500} height={500} alt="Imagem." src="/images/15anos01.png" />
-                           ,
-                           <Image key="image18" width={500} height={500} alt="Imagem." src="/images/15anos06.png" />
-                           ,
-                        ]}
-                     />
+
                      <div className='textBox'>
                         <div>
                            <h3>15 Anos</h3>
@@ -104,22 +59,7 @@ export default function Home() {
                      </div>
                   </div>
                   <div className='carousel'>
-                     <Carousel
-                        images={[
-                           <Image key="image19" width={500} height={500} alt="Imagem." src="/images/tematica04.png" />
-                           ,
-                           <Image key="image20" width={500} height={500} alt="Imagem." src="/images/tematica02.png" />
-                           ,
-                           <Image key="image21" width={500} height={500} alt="Imagem." src="/images/tematica03.png" />
-                           ,
-                           <Image key="image22" width={500} height={500} alt="Imagem." src="/images/tematica01.png" />
-                           ,
-                           <Image key="image23" width={500} height={500} alt="Imagem." src="/images/tematica05.png" />
-                           ,
-                           <Image key="image24" width={500} height={500} alt="Imagem." src="/images/tematica06.png" />
-                           ,
-                        ]}
-                     />
+
                      <div className='textBox'>
                         <div>
                            <h3>Temáticas</h3>

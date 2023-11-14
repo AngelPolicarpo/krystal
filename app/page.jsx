@@ -12,7 +12,7 @@ export default function Home() {
          <Navbar />
          <main>
             <section id="home">
-               <h1>Aqui na Krystal Festas seus sonhos brilham!</h1>
+               <h1>Aqui na Krystal Festas seus sonhos brilham!!!</h1>
                <p>
                   À mais de 17 anos no ramo de festas e eventos, uma das melhores
                   casas de festas de Vista Alegre.

@@ -5,5 +5,5 @@
 Site: https://www.krystalfestas.com
 ## Nova Interface
 ![image](https://github.com/AngelPolicarpo/Krystal/assets/102557147/0c4b6186-2757-45bb-991f-91d1712b13c6)
-Site: angelpolicarpo.github.io/Krystal/
+Site: https://angelpolicarpo.github.io/Krystal/
 

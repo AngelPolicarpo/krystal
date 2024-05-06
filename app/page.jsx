@@ -12,7 +12,7 @@ export default function Home() {
          <Navbar />
          <main>
             <section id="home">
-               <h1>Aqui na Krystal Festas seus sonhos brilham!!!</h1>
+               <h1>Aqui na Krystal Festas seus sonhos brilham!</h1>
                <p>
                   À mais de 17 anos no ramo de festas e eventos, uma das melhores
                   casas de festas de Vista Alegre.
@@ -25,7 +25,7 @@ export default function Home() {
                   infantis e se encante com o capricho, a beleza a qualidade e os
                   preços imbatíveis.
                </p>
-               <a href='https://wa.me/5521970153687?text=Olá, gostaria de mais informações.'><button>AGENDAR UMA VISITA</button></a>
+               <a href='https://wa.me/5521970153687?text=Olá, gostaria de mais informações.'><button>FAZER ORÇAMENTO</button></a>
             </section>
             <section id="services">
                <h2>Serviços</h2>

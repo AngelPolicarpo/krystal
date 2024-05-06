@@ -25,11 +25,11 @@ const Footer = () => {
     }
   }
   return (
-    <footer>
-      <article>
-        <div className="social">
-          <p id="social-p">Veja também Krystal Festas nas redes sociais</p>
-          <div id="icons">
+    <footer id="contact">
+      <section>
+        <div>
+          <p>Veja também Krystal Festas nas redes sociais</p>
+          <div>
             <svg
               version="1.0"
               xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,6 @@ const Footer = () => {
                 transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
                 fill="#fff"
                 stroke="none"
-                className="drop-shadow-svg"
               >
                 <path
                   d="M1218 5109 c-167 -20 -364 -85 -514 -170 -388 -223 -644 -611 -693
@@ -105,42 +104,26 @@ const Footer = () => {
               </g>
             </svg>
           </div>
-          <div>
-            <p id="tel-p">Contato</p>
+        </div>
+        <div>
+            <p>Contato</p>
             <p>
               <a href="tel:+552121489162">021 2148 9162</a>
               <br />
               <a href="tel:+5521970056370">021 970 056 370</a>
             </p>
-          </div>
         </div>
-        <div className="contact" id="contact">
-          <form>
-            <h2>Entre em Contato</h2>
-            <input placeholder="Nome"></input>
-            <input placeholder="E-mail"></input>
-            <textarea placeholder="Mensagem"></textarea>
-            <button>Enviar</button>
-          </form>
-        </div>
-        <div className="map">
+        <div>
           <address>
             Rua Prof. Oscar Clark, 254, Vista Alegre Rio de Janeiro, RJ
           </address>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.1311028456134!2d-43.313340788252845!3d-22.83463857921961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997b5d6fc0fa0b%3A0x2ec82cc273f32bf3!2sKrystal%20Festas%20Vista%20Alegre!5e0!3m2!1spt-BR!2sbr!4v1697663554292!5m2!1spt-BR!2sbr"
-            style={{ border: "0", filter: "invert(90%)" }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
-          <button onClick={mapButton}>Como Chegar</button>
+          <button onClick={mapButton}>COMO CHEGAR</button>
         </div>
-      </article>
-      <div className="copyright">
+      </section>
+      <section>
         <p>&copy; 2023 Krystal Festas. Todos os direitos reservados.</p>
         <p>Por Angel Policarpo.</p>
-      </div>
+      </section>
     </footer>
   );
 };

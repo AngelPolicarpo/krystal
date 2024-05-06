@@ -1,27 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-.glass {
-    background: rgba(0, 0, 0, 0.9);
-  }
-
-.confetti {
-    z-index: 0;
-    width: 10px;
-    height: 10px;
-    position: absolute;
-    border-radius: 50%;
-    opacity: 0.1;
-}
-
 header {
     padding: 12px 36px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-grow: 0;
     position: relative;
     overflow: hidden;
     color: var(--first-color);
+    background: rgba(0, 0, 0, 0.9);
     z-index: 5;
 }
 
@@ -57,7 +44,7 @@ header svg {
     z-index: 5;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     header {
         display: flex;
         padding: 0 0px;
@@ -86,7 +73,7 @@ header svg {
     header nav a:hover,
     header nav a:active {
         color: rgba(255, 255, 255, 0.9);
-        background-color: rgba(175, 175, 175, 0.75);
+        background-color: rgba(175, 175, 175, 0.25);
     }
 
     .menu-nav {
